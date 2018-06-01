@@ -5,6 +5,9 @@ class Map(models.Model):
     code = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
 
 class Perk(models.Model):
     code = models.CharField(max_length=100)
@@ -14,6 +17,9 @@ class Perk(models.Model):
 
     class Meta:
         unique_together = ('map', 'code')
+
+    def __str__(self):
+        return self.name
 
 
 class RandomFact(models.Model):
