@@ -1,14 +1,14 @@
 from django.contrib import admin
 
-from zombies.models import Fact, GobbleGum, Location, Map, Perk
+from zombies.models import MapFact, GobbleGum, Map, Perk
 
 
 class FactInline(admin.TabularInline):
-    model = Fact
+    model = MapFact
 
 
-class LocationInline(admin.StackedInline):
-    model = Location
+class PerkInline(admin.StackedInline):
+    model = Perk
     extra = 1
     list_display = ['map', 'description']
 
@@ -16,35 +16,20 @@ class LocationInline(admin.StackedInline):
 @admin.register(Perk)
 class PerkAdmin(admin.ModelAdmin):
     model = Perk
-    inlines = [LocationInline]
-    list_display = ['id', 'name']
+    list_display = ['id', 'name', 'location', 'map']
+    list_filter = ['map', 'name']
+
+
+class MapFactInline(admin.TabularInline):
+    model = MapFact
 
 
 @admin.register(Map)
 class MapAdmin(admin.ModelAdmin):
     model = Map
     list_display = ['id', 'name']
+    inlines = [PerkInline, MapFactInline]
 
-
-@admin.register(Location)
-class LocationAdmin(admin.ModelAdmin):
-    model = Location
-    list_display = ['id', 'map', 'perk', 'description']
-
-
-# admin.site.register(Location)
-#
-# @admin.register(Map)
-# class MapAdmin(admin.ModelAdmin):
-#     model = Map
-#     inlines = [FactInline]
-#     list_display = ['id', 'name']
-#
-#
-# @admin.register(PerkLocation)
-# class PerkLocationAdmin(admin.ModelAdmin):
-#     model = PerkLocation
-#     list_display = ['map', 'perk', 'description']
 
 @admin.register(GobbleGum)
 class GobbleGumAdmin(admin.ModelAdmin):
