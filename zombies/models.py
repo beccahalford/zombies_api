@@ -1,22 +1,25 @@
+from datetime import timezone
+
 from django.db import models
 
 
 class Map(models.Model):
-    code = models.CharField(max_length=100, unique=True)
+    map_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
+    release_date = models.DateField(default=timezone.now())
 
     def __str__(self):
         return self.name
 
 
 class Perk(models.Model):
-    code = models.CharField(max_length=100)
+    perk_id = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
     location = models.TextField(null=True)
     map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE)
 
     class Meta:
-        unique_together = ('map', 'code')
+        unique_together = ('map', 'perk_id')
 
     def __str__(self):
         return self.name
@@ -32,7 +35,7 @@ class MapFact(models.Model):
 
 
 class GobbleGum(models.Model):
-    code = models.CharField(max_length=100, unique=True)
+    gobblegum_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=200)
     description = models.TextField()
     type = models.CharField(max_length=100, choices=(

@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             name='GobbleGum',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('code', models.CharField(max_length=100, unique=True)),
+                ('gobblegum_id', models.CharField(max_length=100, unique=True)),
                 ('name', models.CharField(max_length=200)),
                 ('description', models.TextField()),
                 ('type', models.CharField(choices=[('mega_common', 'Mega Common'), ('whimsical', 'Whimsical'), ('classic', 'Classic'), ('mega_rare', 'Mega rare'), ('mega_ultra_rare', 'Mega ultra rare')], max_length=100)),
@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
             name='Map',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('code', models.CharField(max_length=100, unique=True)),
+                ('map_id', models.CharField(max_length=100, unique=True)),
                 ('name', models.CharField(max_length=100)),
             ],
         ),
@@ -42,7 +42,7 @@ class Migration(migrations.Migration):
             name='Perk',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('code', models.CharField(max_length=100)),
+                ('perk_id', models.CharField(max_length=100)),
                 ('name', models.CharField(choices=[('quick_revive', 'Quick Revive'), ('juggernog', 'Juggernog'), ('speed_cola', 'Speed Cola'), ('double_tap', 'Double Tap Root Beer'), ('phd_flopper', 'PhD Flopper'), ('stamin_up', 'Stamin-Up'), ('deadshot', 'Deadshot Daiquiri'), ('mule_kick', 'Mule Kick'), ('tombstone', 'Tombstone Soda'), ('whos_who', "Who's Who"), ('electric_cherry', 'Electric Cherry'), ('vulture_aid', 'Vulture Aid Elixir'), ('widows_wine', "Widow's Wine")], max_length=100)),
                 ('location', models.TextField(null=True)),
                 ('map', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='zombies.Map')),
@@ -57,6 +57,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterUniqueTogether(
             name='perk',
-            unique_together={('map', 'code')},
+            unique_together={('map', 'perk_id')},
         ),
     ]

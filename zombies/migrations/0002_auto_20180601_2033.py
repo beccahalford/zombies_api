@@ -18,18 +18,18 @@ def create_data(apps, schema_editor):
         RandomFact.objects.get_or_create(description=fact)
 
     for map_name, map_fact in map_facts.items():
-        map, _ = Map.objects.get_or_create(code=map_name, name=map_name.replace('_', ' ').capitalize())
+        map, _ = Map.objects.get_or_create(map_id=map_name, name=map_name.replace('_', ' ').capitalize())
         MapFact.objects.get_or_create(map=map, description=map_fact)
 
     for map_name, info in map_perk_locations.items():
-        map, _ = Map.objects.get_or_create(code=map_name, name=map_name.replace('_', ' ').capitalize())
+        map, _ = Map.objects.get_or_create(map_id=map_name, name=map_name.replace('_', ' ').capitalize())
         for perk_name, description in info.items():
             Perk.objects.get_or_create(
-                map=map, code=perk_name, location=description, name=perk_name.replace('_', ' ').capitalize()
+                map=map, perk_id=perk_name, location=description, name=perk_name.replace('_', ' ').capitalize()
             )
 
     for gobblegum_name, info in gobblegum_data.items():
-        gum, _ = GobbleGum.objects.get_or_create(code=gobblegum_name)
+        gum, _ = GobbleGum.objects.get_or_create(gobblegum_id=gobblegum_name)
         gum.description = info['description']
         gum.type =info['type']
         gum.name = gobblegum_name.replace('_', ' ').capitalize()
