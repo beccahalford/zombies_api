@@ -8,6 +8,9 @@ class Map(models.Model):
     name = models.CharField(max_length=100)
     release_date = models.DateField(default=now())
 
+    class Meta:
+        ordering = ('release_date',)
+
     def __str__(self):
         return self.name
 
@@ -20,9 +23,10 @@ class Perk(models.Model):
 
     class Meta:
         unique_together = ('map', 'perk_id')
+        ordering = ('map', 'id')
 
     def __str__(self):
-        return self.name
+            return self.name
 
 
 class RandomFact(models.Model):
@@ -42,6 +46,9 @@ class GobbleGum(models.Model):
         ('mega_common', 'Mega Common'),
         ('whimsical', 'Whimsical'),
         ('classic', 'Classic'),
-        ('mega_rare', 'Mega rare'),
-        ('mega_ultra_rare', 'Mega ultra rare'),
+        ('mega_rare', 'Mega Rare'),
+        ('mega_ultra_rare', 'Mega Ultra-Rare'),
     ))
+
+    class Meta:
+        ordering = ('type',)

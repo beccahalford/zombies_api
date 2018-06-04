@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from zombies.models import MapFact, GobbleGum, Map, Perk
+from zombies.models import MapFact, GobbleGum, Map, Perk, RandomFact
 
 
 class FactInline(admin.TabularInline):
@@ -16,8 +16,9 @@ class PerkInline(admin.StackedInline):
 @admin.register(Perk)
 class PerkAdmin(admin.ModelAdmin):
     model = Perk
-    list_display = ['id', 'name', 'location', 'map']
+    list_display = ['id', 'map', 'name', 'location']
     list_filter = ['map', 'name']
+    list_per_page = 15
 
 
 class MapFactInline(admin.TabularInline):
@@ -29,9 +30,19 @@ class MapAdmin(admin.ModelAdmin):
     model = Map
     list_display = ['id', 'name', 'release_date']
     inlines = [PerkInline, MapFactInline]
+    list_per_page = 15
 
 
 @admin.register(GobbleGum)
 class GobbleGumAdmin(admin.ModelAdmin):
     model = GobbleGum
     list_display = ['id', 'name', 'type']
+    list_per_page = 15
+
+
+@admin.register(RandomFact)
+class RandomFactAdmin(admin.ModelAdmin):
+    model = RandomFact
+    list_display = ['description']
+    list_per_page = 15
+
