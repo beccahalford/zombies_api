@@ -1,4 +1,4 @@
-from datetime import timezone
+from django.utils.timezone import now
 
 from django.db import models
 
@@ -6,7 +6,7 @@ from django.db import models
 class Map(models.Model):
     map_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
-    release_date = models.DateField(default=timezone.now())
+    release_date = models.DateField(default=now())
 
     def __str__(self):
         return self.name
