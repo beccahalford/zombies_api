@@ -107,8 +107,12 @@ map_perk_locations = {
         'stamin-up':    'Located past the gates to the left of the upper spawn door. It is in the back of the alleyway '
                         'past the door leading to the launch pad near the AK-74u and next to a spawn point of the '
                         'Mystery Box on the left.',
-        'deadshot':     '',
-        'widows_wine':  '',
+        'deadshot':     'Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House '
+                        'GobbleGum in the remastered version.',
+        'widows_wine':  'In the room by Lunar Lander (closest to Kuda), with the grenades available to purchase off the'
+                        ' nearby wall. Can also be obtained from a Random Perk Bottle by finishing a Space Monkey round'
+                        ' without having any machines attacked. Can also be obtained from the Der Wunderfizz machine or'
+                        ' the Perkaholic or On the House GobbleGum.',
         'phd_flopper':  'Black ops 1 only. In the room by Lunar Lander (closest to MP5K), with the grenades available '
                         'to purchase off the nearby wall. Can also be obtained from a Random Perk Bottle by finishing '
                         'a Space Monkey round without having any machines attacked.'
@@ -123,7 +127,7 @@ map_perk_locations = {
         'double_tap':   'Located on the deck on the right after getting on the boat.',
         'mule_kick':    'At the back of the ship, right across the Mystery Box location.',
         'stamin-up':    'Behind the lighthouse and inside an abandoned house.',
-        'deadshot':     '',
+        'deadshot':     'On the top floor of the lighthouse, next to the Zipline.',
         'phd_flopper':  'In the abandoned second floor of the multi-story building that branches off of the lighthouse.'
                         ' Can also be obtained from a Random Perk Bottle by killing George A. Romero.'
     },
@@ -141,8 +145,13 @@ map_perk_locations = {
                         'the House GobbleGum.',
         'stamin-up':    'Will spawn randomly in one of the rooms underground (changes spawn with PhD Flopper, Double '
                         'Tap Root Beer and Deadshot Daiquiri).',
-        'deadshot':     '',
-        'widows_wine':  '',
+        'deadshot':     'Will spawn randomly in the mines and changes spawn with Stamin-Up, Double Tap Root Beer, '
+                        'PhD Flopper and Widow\'s Wine). Can also be obtained from a Random Perk Bottle by killing a '
+                        'zombie monkey as it cycles the power-up after it steals one. It May also be obtained from the '
+                        'Perkaholic or On the House GobbleGum.',
+        'widows_wine':  'Will spawn randomly in the mines and changes spawn with Stamin-Up, Double Tap and Deadshot '
+                        'Daiquiri. Can also be obtained from a Random Perk Bottle by killing a zombie monkey as it '
+                        'cycles the power-up after it steals one or the Perkaholic or On the House GobbleGum.',
         'phd_flopper':  'Black ops 1 only. Will spawn randomly in the mines. (changes spawn with Stamin-Up, Double '
                         'Tap and Deadshot Daiquiri). Can also be obtained from a Random Perk Bottle by killing a '
                         'zombie monkey as it cycles the power-up after it steals one.'
@@ -160,8 +169,13 @@ map_perk_locations = {
         'mule_kick':    'Outside, near the teleporter to Area 51, and where the AK-74u can be purchased. Can also be '
                         'obtained from the Perkaholic or On the House GobbleGum.',
         'stamin-up':    'In the second room of Tunnel 11, to the left of the Semtex.',
-        'deadshot':     '',
-        'widows_wine':  '',
+        'deadshot':     'In the top floor of the laboratories and spawns on the far right side in the Bio-Dome near '
+                        'the Mystery Box spawn. It Can also be obtained from a Random Perk Bottle by either jumping '
+                        'multiple times on the bounce pads or spawning one with a QED. Can also be obtained from the '
+                        'Perkaholic or On the House GobbleGum and by completing the main easter egg.',
+        'widows_wine':  ' Spawns on the far right side in the Bio-Dome near the Mystery Box spawn. Can also be obtained'
+                        ' from a Random Perk Bottle by either jumping multiple times on the bounce pads or spawning '
+                        'one with a QED. Can also be obtained from the Perkaholic or On the House GobbleGum.',
         'phd_flopper':  'Black ops 1 only. Spawns on the far right side in the Bio-Dome near the Mystery Box spawn. '
                         'Can also be obtained from a Random Perk Bottle by either jumping multiple times on the bounce '
                         'pads or spawning one with a QED.'
@@ -216,9 +230,10 @@ map_perk_locations = {
         'speed_cola':   'is found In the back of the Warden\'s Office.',
         'double_tap':   'In the Citadel Tunnels, near the door that leads up to the Warden\'s Office area.',
         'mule_kick':    'Found on a boat across from the docks along with PhD Flopper as an unobtainable Easter egg.',
-        'deadshot':     '',
+        'deadshot':     'Near the Uzi location inside the infirmary, before the stairs to the roof.',
         'phd_flopper':  'Found on a small boat along with Mule Kick near the dock area as an unobtainable Easter Egg.',
-        'electric_cherry': ''
+        'electric_cherry': 'On the top level of the Cell Block, in front of a crafting table, directly above '
+                           'Cerberus\' head near the B23R.'
     },
     'buried': {
         'quick_revive': 'can be found on the left side of the very first room upon descending from the surface into '
@@ -234,7 +249,7 @@ map_perk_locations = {
                         'repeatedly (Note that it does not protect the player from over-cooked grenades or fall '
                         'damage). Not physically available nor is obtained from a Random Perk Bottle, which is '
                         'achieved by killing all the Ghosts after traversing trough the mansion.',
-        'vulture_aid':  ''
+        'vulture_aid':  'is located in the church to the left of the altar.'
     },
     'origins': {
         'quick_revive': 'is next to Generator 1 in the spawn room',
@@ -247,10 +262,12 @@ map_perk_locations = {
         'mule_kick':    'Found inside the excavation site, across from the staffs. Also purchasable by using the Der '
                         'Wunderfizz machine.',
         'stamin-up':    'Directly next to Generator 5 in a corner.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'phd_flopper':  'Obtained via the Der Wunderfizz machine. Not physically available.',
-        'electric_cherry': ''
+        'deadshot':     'Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House '
+                        'GobbleGum in the remastered version of the map',
+        'widows_wine':  'Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House '
+                        'GobbleGum in the remastered version of the map',
+        'phd_flopper':  'Obtained via the Der Wunderfizz machine. Not physically available. (Black ops 2 only)',
+        'electric_cherry': 'Can only be obtained from the Der Wunderfizz machine.'
     },
     'shadows': {
         'quick_revive': 'can be located in the starting area, to the right of the RK5.',
@@ -262,7 +279,8 @@ map_perk_locations = {
                         'yellow bottle marks its location.',
         'mule_kick':    'In the Broken-down subway, near Widow\'s Wine.',
         'stamin-up':    'Outside of the spawn room, to the left of the Ice Cream store.',
-        'widows_wine':  '',
+        'widows_wine':  'In the broken-down subway, which is accessible from the main area outside the starting alley, '
+                        'or from three "Rift" portals.',
     },
     'the_giant': {
         'quick_revive': 'is spawned randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine',
@@ -273,9 +291,9 @@ map_perk_locations = {
         'stamin-up':    'In the left hallway, on small area covered by snow. It can only be received by throwing a '
                         'Monkey Bomb into each teleporter and teleporting them to the mainframe. Even if the steps are '
                         'followed, there\'s a chance of getting Deadshot Daiquiri instead of this Perk-a-Cola.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'electric_cherry': ''
+        'deadshot':     'In the left hallway, on small area covered by snow. It can only be received by throwing a '
+                        'Monkey Bomb into each teleporter and teleporting them to the mainframe. Even if the steps '
+                        'are followed, there\'s a chance of getting Stamin-Up instead of this Perk-a-Cola.',
     },
     'der_eisendrache':  {
         'quick_revive': 'may be located in the starting room, near the RK5.',
@@ -287,9 +305,12 @@ map_perk_locations = {
         'stamin-up':    'In the same room as the Power switch, to the right of the switch as the player enters the '
                         'room. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or On the House '
                         'GobbleGum.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'electric_cherry': ''
+        'deadshot':     'It can be obtained from the Der Wunderfizz machine, the Perkaholic or On The House GobbleGums,'
+                        ' or by completing the main easter egg.',
+        'widows_wine':  'Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House, '
+                        'or Soda Fountain GobbleGum.',
+        'electric_cherry': 'Can only be obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The '
+                           'House GobbleGum from Dr Monty\'s Factory.'
     },
     'zetsubou': {
         'quick_revive': 'is Located on the other side of the bunker door in co-op. Dropped via airplane at the start of'
@@ -304,9 +325,14 @@ map_perk_locations = {
                         'part for the Pack-a-Punch Machine can be found.',
         'stamin-up':    'Randomizes locations with the other perks except Mule Kick. Can also be obtained from the '
                         'Perkaholic or On the House GobbleGum.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'electric_cherry': ''
+        'deadshot':     'It can be obtained from a Perkaholic or On The House Gobblegum, completing the main easter '
+                        'egg, or getting it from a fruit grown by a plant that has been watered with three different '
+                        'types of water for three rounds.',
+        'widows_wine':  ' Can be obtained by defeating the Giant Spider boss. Head past its corpse, and find a pool of '
+                        'fresh Widow\'s Wine. Hold the use button just as one would when buying a regular perk and the '
+                        'character will drink it. Can also be obtained via the Perkaholic or the On the House GobbleGums.',
+        'electric_cherry': 'Can be one of the random perks given to the player when eating a fruit from a pod when the '
+                           'player has three perks or by getting a Perkaholic or On The House GobbleGum '
     },
     'gorod_krovi': {
         'quick_revive': 'will be found In Belinski Square, to the left of the first door.',
@@ -317,9 +343,13 @@ map_perk_locations = {
         'mule_kick':    'Near the entrance to the Operations Bunker coming from the Department Store.',
         'stamin-up':    'In the Infirmary. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or '
                         'On the House GobbleGum.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'electric_cherry': ''
+        'deadshot':     'It can be obtained from the Der Wunderfizz machine, the Perkaholic or On the House Gobblegums,'
+                        ' or completing the main easter egg.',
+        'widows_wine':  'Can only be obtained from the Der Wunderfizz machine or the Perkaholic or the On the House '
+                        'GobbleGums or after completing the Tier 3 challenge on the right side of the tombstone in '
+                        'Belinski Square.',
+        'electric_cherry': 'Can only be obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The '
+                           'House Gobblegum.'
     },
     'revelations': {
         'quick_revive': 'can be found In the starting room, directly in front of The House.',
@@ -330,9 +360,12 @@ map_perk_locations = {
         'mule_kick':    'Inside the cafeteria in Mob of the Dead, where Deadshot Daiquiri would be in Cell Block.',
         'stamin-up':    'On the Shangri-La island, where Quick Revive was originally found. Can also be obtained from '
                         'the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.',
-        'deadshot':     '',
-        'widows_wine':  '',
-        'electric_cherry': ''
+        'deadshot':     'It can be obtained from either the Der Wunderfizz machine, the Perkaholic or On the House '
+                        'gobblegums or by completing the main Easter Egg.',
+        'widows_wine':  'Can be found in the projector room in the fragmented part of Kino der Toten where the '
+                        'Pack-a-Punch Machine used to be or can be obtained from Der Wunderfizz.',
+        'electric_cherry': 'Can  be obtained from the free perk on the wall run in Der Eisendrache. It can also be '
+                           'obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The House GobbleGum'
     },
     'spaceland': {},
     'redwoods': {},
