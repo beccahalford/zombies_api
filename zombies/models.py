@@ -1,66 +1,54 @@
+from django.utils.timezone import now
+
 from django.db import models
 
 
-class Perk(models.Model):
-    id = models.CharField(max_length=100, primary_key=True)
-    name = models.CharField(max_length=100)
-
-
-class Location(models.Model):
-    description = models.TextField(default='')
-    map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE, default='')
-    perk = models.ForeignKey(Perk, on_delete=models.CASCADE, default='')
-
-
 class Map(models.Model):
-    id = models.CharField(max_length=100, primary_key=True)
+    map_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
-    perks = models.ManyToManyField(Perk, blank=True)
+    release_date = models.DateField(default=now())
 
-#
-# class Map(models.Model):
-#     id = models.CharField(max_length=100, primary_key=True)
-#     name = models.CharField(max_length=200)
-#
-#
-# class Location(models.Model):
-#     name = models.CharField(max_length=200)
-#
-#
-# class Perk(models.Model):
-#     PERK_CHOICES = (('quick_revive',    'Quick Revive'),
-#         ('juggernog',       'Juggernog'),
-#         ('speed_cola',      'Speed Cola'),
-#         ('double_tap',      'Double Tap Root Beer'),
-#         ('phd_flopper',     'PhD Flopper'),
-#         ('stamin_up',       'Stamin-Up'),
-#         ('deadshot',        'Deadshot Daiquiri'),
-#         ('mule_kick',       'Mule Kick'),
-#         ('tombstone',       'Tombstone Soda'),
-#         ('whos_who',        'Who\'s Who'),
-#         ('electric_cherry', 'Electric Cherry'),
-#         ('vulture_aid',     'Vulture Aid Elixir'),
-#         ('widows_wine',     'Widow\'s Wine'))
-#     name = models.CharField(max_length=200, choices=PERK_CHOICES, default=PERK_CHOICES[0])
-#
-#
-# class PerkLocation(models.Model):
-#     perk = models.ForeignKey('zombies.Perk', on_delete=models.CASCADE)
-#     map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE)
-#     description = models.TextField(default='None')
+    class Meta:
+        ordering = ('release_date',)
+
+    def __str__(self):
+        return self.name
+
+
+class Perk(models.Model):
+    perk_id = models.CharField(max_length=100)
+    name = models.CharField(max_length=100)
+    location = models.TextField(null=True)
+    map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ('map', 'perk_id')
+        ordering = ('map', 'id')
+
+    def __str__(self):
+            return self.name
 
 
 class RandomFact(models.Model):
     description = models.TextField()
 
 
-class Fact(models.Model):
+class MapFact(models.Model):
     description = models.TextField()
     map = models.ForeignKey(Map, on_delete=models.CASCADE)
 
 
 class GobbleGum(models.Model):
-    id = models.CharField(max_length=100, primary_key=True)
+    gobblegum_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=200)
     description = models.TextField()
-    type = models.CharField(max_length=100)
+    type = models.CharField(max_length=100, choices=(
+        ('mega_common', 'Mega Common'),
+        ('whimsical', 'Whimsical'),
+        ('classic', 'Classic'),
+        ('mega_rare', 'Mega Rare'),
+        ('mega_ultra_rare', 'Mega Ultra-Rare'),
+    ))
+
+    class Meta:
+        ordering = ('type',)
