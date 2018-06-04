@@ -27,7 +27,7 @@ class MapFactInline(admin.TabularInline):
 @admin.register(Map)
 class MapAdmin(admin.ModelAdmin):
     model = Map
-    list_display = ['id', 'name']
+    list_display = ['id', 'name', 'release_date']
     inlines = [PerkInline, MapFactInline]
 
 
