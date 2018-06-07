@@ -1,7 +1,9 @@
-from django.conf.urls import url
-from zombies import views
+from django.conf.urls import include, url
 
-urlpatterns = [
-    url(r'^maps/$', views.map_list),
-    url(r'^maps/(?P<pk>[0-9]+)/$', views.map_detail),
-]
+from .api import urls
+
+app_name = 'zombies'
+
+urlpatterns = (
+    url(r'^api/', include(urls, namespace='api')),
+)

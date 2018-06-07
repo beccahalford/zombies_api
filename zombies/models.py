@@ -1,12 +1,10 @@
-from django.utils.timezone import now
-
 from django.db import models
 
 
 class Map(models.Model):
     map_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
-    release_date = models.DateField(default=now())
+    release_date = models.DateField()
 
     class Meta:
         ordering = ('release_date',)
