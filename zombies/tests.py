@@ -63,13 +63,13 @@ class PerkTests(APITestCase):
             perk_id='quick_revive',
             name='Quick revive',
             location='Can be located in the American\'s side of the starting room',
-            map_id=3
+            map=map
         )
         perk2 = Perk.objects.create(
             perk_id='juggernog',
             name='Juggernog',
             location='is in the starting room next to the book shelf (German side)',
-            map_id=3
+            map=map
         )
 
         token = Token.objects.create(user=user)
@@ -77,19 +77,16 @@ class PerkTests(APITestCase):
         client.credentials(HTTP_AUTHORIZATION='Token ' + token.key)
         response = client.get(reverse('zombies:api:perk-list'))
 
-        self.assertEqual(json.loads(response.content),
-                         [
-                             {
-                                 "perk_id": "quick_revive",
-                                 "name": "Quick revive",
-                                 "location": "Can be located in the American's side of the starting room"
-                             },
-                             {
-                                 "perk_id": "juggernog",
-                                 "name": "Juggernog",
-                                 "location": "is In the starting room next to the book shelf (German side)"
-                             }
-                         ])
+        self.assertEquals(Perk.objects.count(), 2)
+
+        response = json.loads(response.content)
+
+        for perk in [perk1, perk2]:
+            self.assertIn({
+                "perk_id": perk.perk_id,
+                "name": perk.name,
+                "location": perk.location
+            }, response)
 
     def test_get_perk_by_id(self):
         user = User.objects.create_superuser(username='test', email='', password='password')
