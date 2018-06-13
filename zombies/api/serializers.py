@@ -24,7 +24,7 @@ class GobbleGumSerializer(ModelSerializer):
 class RandomFactSerializer(ModelSerializer):
     class Meta:
         model = RandomFact
-        fields = 'description'
+        fields = ('description',)
 
 
 class MapFactSerializer(ModelSerializer):
