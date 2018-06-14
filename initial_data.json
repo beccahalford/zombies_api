@@ -1,0 +1,2697 @@
+[
+  {
+    "model": "zombies.map",
+    "pk": 1,
+    "fields": {
+      "map_id": "nacht",
+      "name": "Nacht der Untoten",
+      "release_date": "2008-11-11"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 2,
+    "fields": {
+      "map_id": "shi_no_numa",
+      "name": "Shi no Numa",
+      "release_date": "2009-06-11"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 3,
+    "fields": {
+      "map_id": "verruckt",
+      "name": "Verruckt",
+      "release_date": "2009-03-19"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 4,
+    "fields": {
+      "map_id": "der_riese",
+      "name": "Der Riese",
+      "release_date": "2009-08-06"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 5,
+    "fields": {
+      "map_id": "five",
+      "name": "Five",
+      "release_date": "2010-11-09"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 6,
+    "fields": {
+      "map_id": "town",
+      "name": "Town",
+      "release_date": "2012-11-13"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 7,
+    "fields": {
+      "map_id": "kino",
+      "name": "Kino der Untoten",
+      "release_date": "2010-11-09"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 8,
+    "fields": {
+      "map_id": "ascension",
+      "name": "Ascension",
+      "release_date": "2011-02-01"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 9,
+    "fields": {
+      "map_id": "call_of_the_dead",
+      "name": "Call of the Dead",
+      "release_date": "2011-05-03"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 10,
+    "fields": {
+      "map_id": "shangri_la",
+      "name": "Shangri-La",
+      "release_date": "2011-06-28"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 11,
+    "fields": {
+      "map_id": "moon",
+      "name": "Moon",
+      "release_date": "2011-08-23"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 12,
+    "fields": {
+      "map_id": "tranzit",
+      "name": "Tranzit",
+      "release_date": "2012-11-13"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 13,
+    "fields": {
+      "map_id": "nuketown",
+      "name": "Nuketown",
+      "release_date": "2012-11-13"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 14,
+    "fields": {
+      "map_id": "die_rise",
+      "name": "Die Rise",
+      "release_date": "2013-01-29"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 15,
+    "fields": {
+      "map_id": "mob",
+      "name": "Mob of the Dead",
+      "release_date": "2013-05-16"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 16,
+    "fields": {
+      "map_id": "buried",
+      "name": "Buried",
+      "release_date": "2013-07-02"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 17,
+    "fields": {
+      "map_id": "origins",
+      "name": "Origins",
+      "release_date": "2013-08-27"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 18,
+    "fields": {
+      "map_id": "shadows",
+      "name": "Shadows of Evil",
+      "release_date": "2015-11-06"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 19,
+    "fields": {
+      "map_id": "the_giant",
+      "name": "The Giant",
+      "release_date": "2015-11-06"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 20,
+    "fields": {
+      "map_id": "der_eisendrache",
+      "name": "Der Eisendrache",
+      "release_date": "2016-02-02"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 21,
+    "fields": {
+      "map_id": "zetsubou",
+      "name": "Zetsubou no Shima",
+      "release_date": "2016-04-19"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 22,
+    "fields": {
+      "map_id": "gorod_krovi",
+      "name": "Gorod Krovi",
+      "release_date": "2016-07-12"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 23,
+    "fields": {
+      "map_id": "revelations",
+      "name": "Revelations",
+      "release_date": "2016-09-06"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 24,
+    "fields": {
+      "map_id": "spaceland",
+      "name": "Zombies in Spaceland",
+      "release_date": "2016-11-04"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 25,
+    "fields": {
+      "map_id": "redwoods",
+      "name": "Rave in the Redwoods",
+      "release_date": "2017-01-31"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 26,
+    "fields": {
+      "map_id": "shaolin",
+      "name": "Shaolin Shuffle",
+      "release_date": "2017-04-18"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 27,
+    "fields": {
+      "map_id": "radioactive",
+      "name": "Attack of the Radioactive Thing",
+      "release_date": "2017-07-06"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 28,
+    "fields": {
+      "map_id": "beast",
+      "name": "The Beast From Beyond",
+      "release_date": "2017-09-12"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 29,
+    "fields": {
+      "map_id": "prologue",
+      "name": "Prologue",
+      "release_date": "2017-11-04"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 30,
+    "fields": {
+      "map_id": "final_reich",
+      "name": "The Final Reich",
+      "release_date": "2017-11-04"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 31,
+    "fields": {
+      "map_id": "haus",
+      "name": "Gr\u00f6esten Haus",
+      "release_date": "2017-11-04"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 32,
+    "fields": {
+      "map_id": "darkest_shore",
+      "name": "The Darkest Shore",
+      "release_date": "2018-01-30"
+    }
+  },
+  {
+    "model": "zombies.map",
+    "pk": 33,
+    "fields": {
+      "map_id": "shadowed_throne",
+      "name": "The Shadowed Throne",
+      "release_date": "2018-04-10"
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 1,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "Can be located in the American's side of the starting room",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 2,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is In the starting room next to the book shelf (German side)",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 3,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is In the room between the right balcony and the kitchen",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 4,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "can be found Next to the MP40 purchase on the German side",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 5,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "can be found In the corner of the first cell blocks, next to the stairs",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 6,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "in black ops 3 will spawn in the starting room, to the left of the Sheiva. In Black Ops it randomly spawns in one of the huts",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 7,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Randomly spawns in one of the huts",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 8,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Will spawn randomly in one of the four huts",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 9,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Will randomly spawn in one of the four huts",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 10,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "is available In the starting room, to the left of the Gewehr 43. Or via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 11,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 12,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 13,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 14,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "may be found To the right of the entrance of the room of the teleporter Z-C, in Dr Maxis' office",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 15,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is In a small hallway to the left of the staircase when going towards the Power Switch from the animal testing area",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 16,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is In the second courtyard, where the FG42 can be purchased",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 17,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "is On the second floor of the automobile garage near the bridge",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 18,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "is Below the path leading towards the teleporter in the automobile garage, next to the box location",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 19,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found the starting room by the bar",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 20,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is Located in the theater on the left side through the main doors, next to the Bowie Knife",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 21,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is In the foyer, close to the MP40/kuda wall buy",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 22,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "is located the southern part of the alleyway next to a barrier",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 23,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "can be Found in the portrrate room, next to the door to the foyer",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 24,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 25,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 26,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "is available via Der Wunderfizz machine, Perkaholic or On the House GobbleGum (Black Ops 3 Only)",
+      "map": 7
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 27,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found in the starting room in the corridor.",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 28,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is Downstairs in the war room, next to the door that leads to the Pack-a-Punch Machine room.",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 29,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is Next to the starting room, near the elevator.",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 30,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "will be found In the War Room next to the first elevator.",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 31,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "located In the war room, across the Mystery Box location.",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 32,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is in the starting room, on Centrifuge Floor 1.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 33,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Down the second staircase after buying the door that leads to the MPL/VMP(BO3) room. The entrance is right next to the PM63/Vesper(BO3). Can be obtained from a Random Perk Bottle by finishing a Space Monkey round without having them attack the Perk Machines.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 34,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Near the Lunar Lander closest to the rocket and the Pack-a-Punch Machine; located near the top of the stairs where the M16/M8A7 and the Sickle are. Can also be obtained from a Random Perk Bottle by finishing a Space Monkey round without having a perk machine attacked.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 35,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Available in black ops 3 only. Can only be obtained from the Random Perk Bottle, Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 36,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Underneath the Speed Cola room, next to a barrier.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 37,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Located past the gates to the left of the upper spawn door. It is in the back of the alleyway past the door leading to the launch pad near the AK-74u and next to a spawn point of the Mystery Box on the left.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 38,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum in the remastered version.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 39,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "In the room by Lunar Lander (closest to Kuda), with the grenades available to purchase off the nearby wall. Can also be obtained from a Random Perk Bottle by finishing a Space Monkey round without having any machines attacked. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 40,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Black ops 1 only. In the room by Lunar Lander (closest to MP5K), with the grenades available to purchase off the nearby wall. Can also be obtained from a Random Perk Bottle by finishing a Space Monkey round without having any machines attacked.",
+      "map": 8
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 41,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is found in the starting area, connected to the courtyard of the lighthouse.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 42,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is located In the hull of the ship, nearby one of the Pack-a-Punch's many spawn locations. Can be obtained from a Random Perk Bottle by killing Romero whether or not the player has finished the easter egg.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 43,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is located Behind the lighthouse, at the end of the Ice Slide. Can also be obtained from a Random Perk Bottle by killing Romero.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 44,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Located on the deck on the right after getting on the boat.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 45,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "At the back of the ship, right across the Mystery Box location.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 46,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Behind the lighthouse and inside an abandoned house.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 47,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "On the top floor of the lighthouse, next to the Zipline.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 48,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "In the abandoned second floor of the multi-story building that branches off of the lighthouse. Can also be obtained from a Random Perk Bottle by killing George A. Romero.",
+      "map": 9
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 49,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found in the starting area, along the middle wall.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 50,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is found Outside the temple next to a pillar by the MPL/VMP or on the bridge on the side of the mud pit (Changes the position with Speed Cola). Can be obtained from a Random Perk Bottle by killing a Zombie Monkey as it cycles the power-up.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 51,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Near the wooden bridge and the Mud-Pit Maze, or near to the MPL (changes the spawn place with Juggernog). Can also be obtained from a Random Perk Bottle by killing a Zombie Monkey as it cycles the power-up it stole.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 52,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Will spawn randomly in the mines (changes spawn with Deadshot Daiquiri, PhD Flopper, and Stamin-Up).",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 53,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "In the waterfall area near the box location. Can also be obtained from the Perkaholic or On the House GobbleGum.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 54,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Will spawn randomly in one of the rooms underground (changes spawn with PhD Flopper, Double Tap Root Beer and Deadshot Daiquiri).",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 55,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "Will spawn randomly in the mines and changes spawn with Stamin-Up, Double Tap Root Beer, PhD Flopper and Widow's Wine). Can also be obtained from a Random Perk Bottle by killing a zombie monkey as it cycles the power-up after it steals one. It May also be obtained from the Perkaholic or On the House GobbleGum.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 56,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Will spawn randomly in the mines and changes spawn with Stamin-Up, Double Tap and Deadshot Daiquiri. Can also be obtained from a Random Perk Bottle by killing a zombie monkey as it cycles the power-up after it steals one or the Perkaholic or On the House GobbleGum.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 57,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Black ops 1 only. Will spawn randomly in the mines. (changes spawn with Stamin-Up, Double Tap and Deadshot Daiquiri). Can also be obtained from a Random Perk Bottle by killing a zombie monkey as it cycles the power-up after it steals one.",
+      "map": 10
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 58,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is located in the Receiving Area on the Moon.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 59,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "may be found In Area 51 by the teleporter. Changes places with Speed Cola every time the player returns to Area 51. It can also be obtained from a Random Perk Bottle by either jumping multiple times on the bounce pads or spawning it with a QED.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 60,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "may be found In Area 51. Changes places with Juggernog every time the player returns to Area 51. Can also be obtained from a Random Perk Bottle by either repeatedly jumping on the bounce pads or spawning it with a QED.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 61,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Located on the first floor of the laboratories. Can also be obtained from the Perkaholic or On the House GobbleGum. (Black ops 3)",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 62,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Outside, near the teleporter to Area 51, and where the AK-74u can be purchased. Can also be obtained from the Perkaholic or On the House GobbleGum.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 63,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "In the second room of Tunnel 11, to the left of the Semtex.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 64,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "In the top floor of the laboratories and spawns on the far right side in the Bio-Dome near the Mystery Box spawn. It Can also be obtained from a Random Perk Bottle by either jumping multiple times on the bounce pads or spawning one with a QED. Can also be obtained from the Perkaholic or On the House GobbleGum and by completing the main easter egg.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 65,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Spawns on the far right side in the Bio-Dome near the Mystery Box spawn. Can also be obtained from a Random Perk Bottle by either jumping multiple times on the bounce pads or spawning one with a QED. Can also be obtained from the Perkaholic or On the House GobbleGum.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 66,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Black ops 1 only. Spawns on the far right side in the Bio-Dome near the Mystery Box spawn. Can also be obtained from a Random Perk Bottle by either jumping multiple times on the bounce pads or spawning one with a QED.",
+      "map": 11
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 67,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found inside the starting area in the bus depot.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 68,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is found On the second floor near a corner in the building across from the bank in the town.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 69,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is found in the North Highway Diner, against a wall near the door and MP5.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 70,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Located on the second floor of the barn in Farm.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 71,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Inside the bar, right next to the Jet Gun crafting table.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 72,
+    "fields": {
+      "perk_id": "tombstone",
+      "name": "Tombstone",
+      "location": "Located inside the Power Station after the power is turned on or the door is opened by a Turbine.",
+      "map": 12
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 73,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found on the 2nd floor of the bar in the corner near the Mystery Box spawn.",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 74,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is found On the second floor near a corner in the building across from the bank in the town.",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 75,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is found Inside the city hall/bank, in front of some teller windows.",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 76,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Next to the mystery box spawn across from the Semtex location.",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 77,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Outside the bar, across the road from the Bank and the M14.",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 78,
+    "fields": {
+      "perk_id": "tombstone",
+      "name": "Tombstone",
+      "location": "Located on the street leading to the Mystery Box spawn and Double Tap Root Beer",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 79,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "may be found in any perk spawn in the first room when playing solo. Spawns as an air drop anywhere on the map during co-op mode.",
+      "map": 13
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 80,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Will spawn randomly with all other perks.",
+      "map": 13
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 81,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Spawns randomly along with the other perks.",
+      "map": 13
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 82,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Spawns randomly along with the other perks every five rounds (starting on 1, with the exception of solo, then 5, then 10) on stacks of crates.",
+      "map": 13
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 83,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "will always spawn in the elevator shaft closest to the purchasable door in the starting area, near the M14 and Trample Steam work table.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 84,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Spawns randomly in one of the four elevator shafts in the building with the power switch. It trades these positions between games with Double Tap Root Beer, Mule Kick and the Pack-a-Punch Machine.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 85,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Spawns randomly in one of the two elevator shafts either down the hall from the initial spawn, or in the room two stories below where the Trample Steam is constructed, accessed by removing a couch obstacle. It shares these positions between games with Who's Who. Can also be obtained from a Random Perk Bottle by finishing a Jumping Jack round with 100% accuracy.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 86,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Randomly spawns in one of the four elevator shafts in the building with the power switch. It trades these positions between games with Juggernog, Mule Kick and the Pack-a-Punch Machine.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 87,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Randomly spawns in one of the four elevator shafts in the building with the power switch. It trades these positions between games with Juggernog, Double Tap Root Beer and the Pack-a-Punch Machine.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 88,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Unobtainable Easter Egg in the first elevator shaft from the spawn room.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 89,
+    "fields": {
+      "perk_id": "whos_who",
+      "name": "Whos who",
+      "location": "is located in one of two elevator shafts once the power is turned on. Either the shaft down the hall from the initial spawning area, or in another down below.",
+      "map": 14
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 90,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is not available in mob of the dead, use afterlife mode instead",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 91,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is Down near the Cerberus spawn and Gondola on the docks.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 92,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is found In the back of the Warden's Office.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 93,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "In the Citadel Tunnels, near the door that leads up to the Warden's Office area.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 94,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Found on a boat across from the docks along with PhD Flopper as an unobtainable Easter egg.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 95,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "Near the Uzi location inside the infirmary, before the stairs to the roof.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 96,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Found on a small boat along with Mule Kick near the dock area as an unobtainable Easter Egg.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 97,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "On the top level of the Cell Block, in front of a crafting table, directly above Cerberus' head near the B23R.",
+      "map": 15
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 98,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found on the left side of the very first room upon descending from the surface into the underground town.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 99,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Behind some debris right next to the Giant's cell in a small alley, which needs to be destroyed by him before players can access the machine.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 100,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "In the second floor of the courthouse. Can also be obtained from a Random Perk Bottle by killing all the Ghosts after traversing through the mansion.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 101,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "In the room next the entrance to the mansion, near the teddy bear location.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 102,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Found on top of the Gunsmith shop, in front of a Mystery Box spawn.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 103,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "At the end of the hedge maze, at the stop of the stairs that lead to the Pack-a-Punch Machine.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 104,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Available as one of the Persistent Upgrades by taking a sufficient amount of fall damage repeatedly (Note that it does not protect the player from over-cooked grenades or fall damage). Not physically available nor is obtained from a Random Perk Bottle, which is achieved by killing all the Ghosts after traversing trough the mansion.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 105,
+    "fields": {
+      "perk_id": "vulture_aid",
+      "name": "Vulture aid",
+      "location": "is located in the church to the left of the altar.",
+      "map": 16
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 106,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is next to Generator 1 in the spawn room",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 107,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is next to Generator 4 and a Der Wunderfizz spawn.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 108,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is found in Across a small wooden platform near Generator 3 inside of the giant robot's footprint. It is advised to be conscientious of the robots when purchasing this perk. Can also be obtained at Der Wunderfizz.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 109,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Not physically present in the map. Can only be obtained through the Der Wunderfizz machine and the Rituals of the Ancients.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 110,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Found inside the excavation site, across from the staffs. Also purchasable by using the Der Wunderfizz machine.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 111,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Directly next to Generator 5 in a corner.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 112,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum in the remastered version of the map",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 113,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum in the remastered version of the map",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 114,
+    "fields": {
+      "perk_id": "phd_flopper",
+      "name": "Phd flopper",
+      "location": "Obtained via the Der Wunderfizz machine. Not physically available. (Black ops 2 only)",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 115,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "Can only be obtained from the Der Wunderfizz machine.",
+      "map": 17
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 116,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be located in the starting area, to the right of the RK5.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 117,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Spawns randomly in one of the districts with Speed Cola and Double Tap Root Beer. A Red bottles appear near the district's door which tell if the machine is in that district.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 118,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Spawns randomly at one of the three perk spawn locations. it shares position with Juggernog and Double Tap.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 119,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Randomly switches places with Speed Cola and Juggernog randomly through the districts. A yellow bottle marks its location.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 120,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "In the Broken-down subway, near Widow's Wine.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 121,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Outside of the spawn room, to the left of the Ice Cream store.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 122,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "In the broken-down subway, which is accessible from the main area outside the starting alley, or from three \"Rift\" portals.",
+      "map": 18
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 123,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is spawned randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 124,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Spawns randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 125,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Spawns randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 126,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Spawns randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 127,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Spawns randomly at any of the Perk-a-Cola machine locations, aside from the hidden machine.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 128,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "In the left hallway, on small area covered by snow. It can only be received by throwing a Monkey Bomb into each teleporter and teleporting them to the mainframe. Even if the steps are followed, there's a chance of getting Deadshot Daiquiri instead of this Perk-a-Cola.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 129,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "In the left hallway, on small area covered by snow. It can only be received by throwing a Monkey Bomb into each teleporter and teleporting them to the mainframe. Even if the steps are followed, there's a chance of getting Stamin-Up instead of this Perk-a-Cola.",
+      "map": 19
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 130,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "may be located in the starting room, near the RK5.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 131,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "is located in the room that connects the starting room to the pyramid room, next to the KN-44.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 132,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "spawns Inside the church, to the left right beside the staircase heading to the pyramid room.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 133,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Located to the right of the castle entrance, right under the bridge looking out.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 134,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Found in the corridor next to the big open hole below the room where the fire arrow can be acquired.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 135,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "In the same room as the Power switch, to the right of the switch as the player enters the room. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 136,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "It can be obtained from the Der Wunderfizz machine, the Perkaholic or On The House GobbleGums, or by completing the main easter egg.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 137,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Can only be obtained from the Der Wunderfizz machine or the Perkaholic or On the House, or Soda Fountain GobbleGum.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 138,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "Can only be obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The House GobbleGum from Dr Monty's Factory.",
+      "map": 20
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 139,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "is Located on the other side of the bunker door in co-op. Dropped via airplane at the start of round 2 in solo, opposite side of the Trials of the Ancients of by the main gate to Lab A.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 140,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "Will spawn randomly via airplane on round 2 or round 6. Located on the other side of the bunker door in solo.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 141,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "Switches between the entrance to Lab A, Next to the spider boss entrance and Lab B (Next to the wall-buy for the ICR-1) with Double Tap.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 142,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "Switches between Lab A (Next to the spider boss entrance) and Lab B (Next to the wall-buy for the ICR-1) with Speed Cola.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 143,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "In the room before the underwater tunnels where the plant part for the KT-4 and the wheel part for the Pack-a-Punch Machine can be found.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 144,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "Randomizes locations with the other perks except Mule Kick. Can also be obtained from the Perkaholic or On the House GobbleGum.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 145,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "It can be obtained from a Perkaholic or On The House Gobblegum, completing the main easter egg, or getting it from a fruit grown by a plant that has been watered with three different types of water for three rounds.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 146,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Can be obtained by defeating the Giant Spider boss. Head past its corpse, and find a pool of fresh Widow's Wine. Hold the use button just as one would when buying a regular perk and the character will drink it. Can also be obtained via the Perkaholic or the On the House GobbleGums.",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 147,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "Can be one of the random perks given to the player when eating a fruit from a pod when the player has three perks or by getting a Perkaholic or On The House GobbleGum",
+      "map": 21
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 148,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "will be found In Belinski Square, to the left of the first door.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 149,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "can be found On the second floor of the Department Store, to the right of the staircase leading down towards the Operations Bunker.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 150,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is In the balcony of the Supply Depot building.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 151,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "In the first room of the Tank Factory, near its entrance.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 152,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Near the entrance to the Operations Bunker coming from the Department Store.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 153,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "In the Infirmary. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 154,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "It can be obtained from the Der Wunderfizz machine, the Perkaholic or On the House Gobblegums, or completing the main easter egg.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 155,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Can only be obtained from the Der Wunderfizz machine or the Perkaholic or the On the House GobbleGums or after completing the Tier 3 challenge on the right side of the tombstone in Belinski Square.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 156,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "Can only be obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The House Gobblegum.",
+      "map": 22
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 157,
+    "fields": {
+      "perk_id": "quick_revive",
+      "name": "Quick revive",
+      "location": "can be found In the starting room, directly in front of The House.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 158,
+    "fields": {
+      "perk_id": "juggernog",
+      "name": "Juggernog",
+      "location": "may be found On the second floor of the Nacht der Untoten section of the map, in front of the stairs from the old starting room.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 159,
+    "fields": {
+      "perk_id": "speed_cola",
+      "name": "Speed cola",
+      "location": "is In Verruckt in the room straight forward from the corruption engine.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 160,
+    "fields": {
+      "perk_id": "double_tap",
+      "name": "Double tap",
+      "location": "on the Origins Side of the map by the power generator to the right of the mystery box location",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 161,
+    "fields": {
+      "perk_id": "mule_kick",
+      "name": "Mule kick",
+      "location": "Inside the cafeteria in Mob of the Dead, where Deadshot Daiquiri would be in Cell Block.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 162,
+    "fields": {
+      "perk_id": "stamin-up",
+      "name": "Stamin-up",
+      "location": "On the Shangri-La island, where Quick Revive was originally found. Can also be obtained from the Der Wunderfizz machine or the Perkaholic or On the House GobbleGum.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 163,
+    "fields": {
+      "perk_id": "deadshot",
+      "name": "Deadshot",
+      "location": "It can be obtained from either the Der Wunderfizz machine, the Perkaholic or On the House gobblegums or by completing the main Easter Egg.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 164,
+    "fields": {
+      "perk_id": "widows_wine",
+      "name": "Widows wine",
+      "location": "Can be found in the projector room in the fragmented part of Kino der Toten where the Pack-a-Punch Machine used to be or can be obtained from Der Wunderfizz.",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.perk",
+    "pk": 165,
+    "fields": {
+      "perk_id": "electric_cherry",
+      "name": "Electric cherry",
+      "location": "Can  be obtained from the free perk on the wall run in Der Eisendrache. It can also be obtained from the Der Wunderfizz machine or by getting a Perkaholic or On The House GobbleGum",
+      "map": 23
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 1,
+    "fields": {
+      "description": "Doctor Edward Richtofen joined the Illuminati on August 30th, 1925"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 2,
+    "fields": {
+      "description": "The Ray Gun was the first fictional gun to appear in the Call of Duty series"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 3,
+    "fields": {
+      "description": "Groph and Schuster develop the Wave Gun"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 4,
+    "fields": {
+      "description": "The 4 statues under pack-a-punch in origins are of the primiss crew"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 5,
+    "fields": {
+      "description": "The victus crew are cryogenically frozen in a secret lab under Alcatraz prison"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 6,
+    "fields": {
+      "description": "Group 9 3 5 was a scientific research group involved with the creation of most of the Wonder Weapon experiments"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 7,
+    "fields": {
+      "description": "Element 1 1 5 is exchanged between players and Doctor Monty as liquid divinium; its real name is Ununpentium"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 8,
+    "fields": {
+      "description": "In Call of Duty: Black Ops 3, all wall clocks found in zombies maps have stopped at 1:15"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 9,
+    "fields": {
+      "description": "The zombies eye colour corresponds to who is controlling them on the map"
+    }
+  },
+  {
+    "model": "zombies.randomfact",
+    "pk": 10,
+    "fields": {
+      "description": "Der Reese is a real location found in Poland that was used by Nazi scientists during the war"
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 1,
+    "fields": {
+      "description": "[]",
+      "map": 1
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 2,
+    "fields": {
+      "description": "[]",
+      "map": 2
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 3,
+    "fields": {
+      "description": "[]",
+      "map": 3
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 4,
+    "fields": {
+      "description": "['Der Reese is a real location found in Poland that was used by Nazi scientists during the war']",
+      "map": 4
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 5,
+    "fields": {
+      "description": "['A portrait of Richtofen can be found in the pack a punch room on 5', \"The Winter's Howl can be found on a table on the third floor\"]",
+      "map": 5
+    }
+  },
+  {
+    "model": "zombies.mapfact",
+    "pk": 6,
+    "fields": {
+      "description": "[]",
+      "map": 6
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 1,
+    "fields": {
+      "gobblegum_id": "always_done_swiftly",
+      "name": "Always done swiftly",
+      "description": "Walk faster when aiming, and Raise and lower your weapon to aim more quickly.Activates Immediately, Lasts 3 Rounds",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 2,
+    "fields": {
+      "gobblegum_id": "arms_grace",
+      "name": "Arms grace",
+      "description": "Respawn with the guns the player had when they bled out. Activates Immediately, Lasts until next respawn",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 3,
+    "fields": {
+      "gobblegum_id": "coagulant",
+      "name": "Coagulant",
+      "description": "Longer bleedout time. Activates Immediately, Lasts 20 minutes",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 4,
+    "fields": {
+      "gobblegum_id": "plain_sight",
+      "name": "Plain sight",
+      "description": "All zombies ignore the player. Activated, 2x Activations, 10 seconds each",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 5,
+    "fields": {
+      "gobblegum_id": "stock_option",
+      "name": "Stock option",
+      "description": "Ammo is taken from the player's stockpile instead of their weapon's magazine. This allows the player to \"spam\" single-round weapons such as the XM-53 or Apothicon Servant.Activates Immediately, Last 2.5 minutes",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 6,
+    "fields": {
+      "gobblegum_id": "impatient",
+      "name": "Impatient",
+      "description": "Respawn near the end of the current round instead of at the start of the next round.Activates Immediately, Lasts until bleed out",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 7,
+    "fields": {
+      "gobblegum_id": "sword_flay",
+      "name": "Sword flay",
+      "description": "Melee attacks and any melee weapon will inflict 5x more damage on zombies.Activates Immediately, Lasts 2.5 minutes",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 8,
+    "fields": {
+      "gobblegum_id": "anywhere_but_here",
+      "name": "Anywhere but here",
+      "description": "Instantly teleport to a random location. A concussive blast knocks away any nearby zombies, keeping the player safe. Activated, 2x Activations",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 9,
+    "fields": {
+      "gobblegum_id": "danger_closest",
+      "name": "Danger closest",
+      "description": "Zero explosive damage, similar to PhD Flopper. Damage can still be taken by Insanity Elementals. Activates Immediately, Lasts 3 full rounds",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 10,
+    "fields": {
+      "gobblegum_id": "armamental",
+      "name": "Armamental",
+      "description": "Switch weapons and recover from performing melee attacks faster. Reload and use items more quickly. Similar to Fast Hands from Multiplayer but does not increase reload speed.Activates Immediately, Lasts 3 full rounds",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 11,
+    "fields": {
+      "gobblegum_id": "firing_cylinders",
+      "name": "Firing cylinders",
+      "description": "Can fire while sprinting. Similar to the Gung-Ho perk from Multiplayer. Activates Immediately, Lasts 3 full rounds",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 12,
+    "fields": {
+      "gobblegum_id": "arsenal_accelerator",
+      "name": "Arsenal accelerator",
+      "description": " Charge the player's special weapon faster. Affects the Apothicon Swords, the Annihilator, the Ragnarok DG-4, the Skull of Nan-Sapwe, and the Gauntlet of Seigfried. Activates Immediately, Lasts 10 minutes",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 13,
+    "fields": {
+      "gobblegum_id": "lucky_crit",
+      "name": "Lucky crit",
+      "description": "Improves your chances of activating an Alternate Ammo Type, like Turned, Dead Wire, etc.Activates Immediately, Lasts 1 full round",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 14,
+    "fields": {
+      "gobblegum_id": "now_you_see",
+      "name": "Now you see",
+      "description": "All zombies will chase the player. Activated, 2x Activations, 10 seconds each",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 15,
+    "fields": {
+      "gobblegum_id": "alchemical",
+      "name": "Alchemical",
+      "description": "Every 10 points earned is instead awarded 1 ammo in the stock of the current weapon. Affects all weapons. Any points gained including points from power ups will give the player one round in their reserve ammunition for every 10 points earned. Note that the points will not be awardedif this GobbleGum is active. Activated, 2x Activations, 60 seconds each",
+      "type": "classic"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 16,
+    "fields": {
+      "gobblegum_id": "projectile",
+      "name": "Projectile",
+      "description": "Zombies you kill with grenades or other large projectiles vomit uncontrollably. Activates Immediately, Lasts 5 full rounds",
+      "type": "whimsical"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 17,
+    "fields": {
+      "gobblegum_id": "newtonian",
+      "name": "Newtonian",
+      "description": "Zombies killed fall straight up. Activates Immediately, Lasts 25 minutes",
+      "type": "whimsical"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 18,
+    "fields": {
+      "gobblegum_id": "eye_candy",
+      "name": "Eye candy",
+      "description": "Overrides the colors you see. Creates color overlay that highlights zombies (and some non-zombie enemies) in a color that can be changed by reactivating. Colors include blue, green, yellow, and red. Activating a 5th time will deactivate the Gum. Activated, 4 Activations",
+      "type": "whimsical"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 19,
+    "fields": {
+      "gobblegum_id": "tone_death",
+      "name": "Tone death",
+      "description": "A set of random silly zombie sounds and death sounds are played instead of the normal ones. Activates Immediately, activates each tenth zombie kill",
+      "type": "whimsical"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 20,
+    "fields": {
+      "gobblegum_id": "aftertaste",
+      "name": "Aftertaste",
+      "description": "Keep all Perks after being revived. This will not keep the player's Quick Revive in solo.Activates Immediately, Lasts 3 Rounds",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 21,
+    "fields": {
+      "gobblegum_id": "burned_out",
+      "name": "Burned out",
+      "description": "The next time the player takes damage, nearby zombies burst into fire. Activates Immediately, Lasts 2 Hits",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 22,
+    "fields": {
+      "gobblegum_id": "nuclear_winter",
+      "name": "Nuclear winter",
+      "description": "Spawns a Nuke Power-Up. 2 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 23,
+    "fields": {
+      "gobblegum_id": "ephemeral_enhancement",
+      "name": "Ephemeral enhancement",
+      "description": "Turns the weapon in the player's hands into the Pack-A-Punched version. Players should be careful to remember that it only lasts for 60 seconds. 2 Activations, 60 Seconds Each",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 24,
+    "fields": {
+      "gobblegum_id": "feeling_lucky",
+      "name": "Feeling lucky",
+      "description": "Spawns a random Power-Up in the map. 2 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 25,
+    "fields": {
+      "gobblegum_id": "immolation",
+      "name": "Immolation",
+      "description": "Spawns a Fire Sale Power-Up. 3 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 26,
+    "fields": {
+      "gobblegum_id": "licensed_contractor",
+      "name": "Licensed contractor",
+      "description": "Spawns a Carpenter Power-Up. 3 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 27,
+    "fields": {
+      "gobblegum_id": "phoenix_up",
+      "name": "Phoenix up",
+      "description": "Revives all teammates. Teammates keep all of their Perks. 1 activation",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 28,
+    "fields": {
+      "gobblegum_id": "pop_shocks",
+      "name": "Pop shocks",
+      "description": "Melee attacks trigger an electrostatic discharge, electrocuting nearby Zombies. Auto-Activates when attacking Zombies, 5 Activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 29,
+    "fields": {
+      "gobblegum_id": "respin_cycle",
+      "name": "Respin cycle",
+      "description": "Re-spins the weapons in the Mystery Box after it has been activated. 2 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 30,
+    "fields": {
+      "gobblegum_id": "unquenchable",
+      "name": "Unquenchable",
+      "description": "Can buy an extra Perk-a-Cola. The perk slot will be lost should the player go down. (Auto activates when the player has 4 perks.)",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 31,
+    "fields": {
+      "gobblegum_id": "keeping_score",
+      "name": "Keeping score",
+      "description": "Spawns a Double Points Power-Up. 2 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 32,
+    "fields": {
+      "gobblegum_id": "fatal_contraption",
+      "name": "Fatal contraption",
+      "description": "Spawns a Death Machine Power-Up. 2 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 33,
+    "fields": {
+      "gobblegum_id": "crawl_space",
+      "name": "Crawl space",
+      "description": "All nearby zombies become crawlers. 5 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 34,
+    "fields": {
+      "gobblegum_id": "unbearable",
+      "name": "Unbearable",
+      "description": "Auto-activates when a teddy bear appears in the Mystery box. The Mystery box re-spinsautomatically. The Mystery box will not move for several more uses.",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 35,
+    "fields": {
+      "gobblegum_id": "disorderly_combat",
+      "name": "Disorderly combat",
+      "description": "Gives a random gun every 10 seconds. It should be noted that if the player uses this while holding a Pack-a-Punched weapon, all subsequent weapons will be Pack-a-Punched as well. Activates Immediately, Last for 5 minutes",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 36,
+    "fields": {
+      "gobblegum_id": "slaughter_slide",
+      "name": "Slaughter slide",
+      "description": "Create 2 lethal explosions by sliding. Auto-activates when sliding, 6x Activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 37,
+    "fields": {
+      "gobblegum_id": "mind_blown",
+      "name": "Mind blown",
+      "description": "Gib the heads of all the zombies you can see, killing them. 3 activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 38,
+    "fields": {
+      "gobblegum_id": "board_games",
+      "name": "Board games",
+      "description": "Fixing one board at a barrier fixes all the boards at that barrier. You only get the points from the first board repaired. Activates Immediately lasting 5 rounds",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 39,
+    "fields": {
+      "gobblegum_id": "flavor_hexed",
+      "name": "Flavor hexed",
+      "description": "Selects a random Mega Gobblegum of any rarity that is not in the player's loadout and awards it to the player. If the player doesn't bleed out or purchase another GobbleGum, then this will repeat a second time once the first gum has been used. Activates Immediately",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 40,
+    "fields": {
+      "gobblegum_id": "idle_eyes",
+      "name": "Idle eyes",
+      "description": "All zombies ignore all players and stand idle.  3 30 seconds activations",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 41,
+    "fields": {
+      "gobblegum_id": "board_death",
+      "name": "Board death",
+      "description": "Zombies within 15 feet of a repaired board are killed. Does not work for bosses. Activates Immediately, Lasts 5 minutes",
+      "type": "mega_common"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 42,
+    "fields": {
+      "gobblegum_id": "cache_back",
+      "name": "Cache back",
+      "description": "Spawns a Max Ammo Power-Up. 1 Activation",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 43,
+    "fields": {
+      "gobblegum_id": "kill_joy",
+      "name": "Kill joy",
+      "description": "Spawns an Insta-Kill Power-Up. 2 activations",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 44,
+    "fields": {
+      "gobblegum_id": "on_the_house",
+      "name": "On the house",
+      "description": "Spawns a Random Perk Bottle Power Up. 1 activation",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 45,
+    "fields": {
+      "gobblegum_id": "wall_power",
+      "name": "Wall power",
+      "description": "The next wall weapon purchased becomes Pack-a-Punched. (Activates Immediately, Lasts until the player's next wall-buy gun purchase)",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 46,
+    "fields": {
+      "gobblegum_id": "undead_man_walking",
+      "name": "Undead man walking",
+      "description": "Slow down all zombies to shambling speed. (Activates Immediately, Lasts 4 minutes)",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 47,
+    "fields": {
+      "gobblegum_id": "fear_headlights",
+      "name": "Fear headlights",
+      "description": "Zombies seen by the player will not move. Players should remember this will not affect zombies that are behind them. 1 Activation lasting 2 minutes",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 48,
+    "fields": {
+      "gobblegum_id": "temporal_gift",
+      "name": "Temporal gift",
+      "description": "Power ups last longer (extra 30 seconds). Activated immediately, lasts one round",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 49,
+    "fields": {
+      "gobblegum_id": "crate_power",
+      "name": "Crate power",
+      "description": "The next gun taken from the magic box comes Pack-a-Punched. (Auto-activates next time you take a gun from the magic box)",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 50,
+    "fields": {
+      "gobblegum_id": "bullet_boost",
+      "name": "Bullet boost",
+      "description": "Re-Pack your current Pack-a-Punched gun (if supported). 2 activations",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 51,
+    "fields": {
+      "gobblegum_id": "extra_credit",
+      "name": "Extra credit",
+      "description": "Spawns a Personal Points Power-Up worth 1,250 points (2500 points if Double Points is active).4 Activations",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 52,
+    "fields": {
+      "gobblegum_id": "soda_fountain",
+      "name": "Soda fountain",
+      "description": "Perk purchase limit is ignored. Every perk you buy, a random perk is awarded along with the perk you bought. (Auto-activates when buying a perk, 5 Activations)",
+      "type": "mega_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 53,
+    "fields": {
+      "gobblegum_id": "killing_time",
+      "name": "Killing time",
+      "description": "All zombies freeze in place for 20 seconds. If they are shot they will be annihilated when the time is up. 1 activation",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 54,
+    "fields": {
+      "gobblegum_id": "perkaholic",
+      "name": "Perkaholic",
+      "description": "Gives the player all Perk-a-Colas in the map. 1 activation",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 55,
+    "fields": {
+      "gobblegum_id": "head_drama",
+      "name": "Head drama",
+      "description": "Any bullet which hits a zombie will damage its head. Activates Immediately, Lasts for the Remainder of the Round",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 56,
+    "fields": {
+      "gobblegum_id": "secret_shopper",
+      "name": "Secret shopper",
+      "description": "Any gun wall-buy can be used to buy ammo for any gun. (Note that you cannot buy ammo for Wonder Weapons.) Activated Immediately, Lasts 10 minutes",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 57,
+    "fields": {
+      "gobblegum_id": "shopping_free",
+      "name": "Shopping free",
+      "description": "All purchases are free for one minute. Activates Immediately",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 58,
+    "fields": {
+      "gobblegum_id": "near_death",
+      "name": "Near death",
+      "description": "Revive, or be revived simply by being near other players. Revived players keep all their perks, including Quick Revive. Activates Immediately, Lasts 3 full rounds",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 59,
+    "fields": {
+      "gobblegum_id": "profit_sharing",
+      "name": "Profit sharing",
+      "description": "Points you earn are also recieved by nearby players and vice versa. Activates Immediately, Lasts 10 minutes",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 60,
+    "fields": {
+      "gobblegum_id": "round_robbin",
+      "name": "Round robbin",
+      "description": "Ends the current round. All players gain 1600 points. This GobbleGum cannot be used in Area 51 (Spawn area on Moon), it will simply fail to be used - this will not consume the GobbleGum.1 activation",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 61,
+    "fields": {
+      "gobblegum_id": "self_medication",
+      "name": "Self medication",
+      "description": "Auto revive yourself. Keep all your perks. This includes Quick Revive. Auto-activates by getting a kill in last stand, 3x Activations",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 62,
+    "fields": {
+      "gobblegum_id": "power_vacuum",
+      "name": "Power vacuum",
+      "description": "Power-Ups spawn more often. The drop chance is greatly increased, the normal cap of only 4 drops per round is ignored. Activates Immediately, Lasts 4 rounds",
+      "type": "mega_ultra_rare"
+    }
+  },
+  {
+    "model": "zombies.gobblegum",
+    "pk": 63,
+    "fields": {
+      "gobblegum_id": "reign_drops",
+      "name": "Reign drops",
+      "description": "Spawns all the core power-ups at once (Nuke, Double Points, Fire Sale, Insta-Kill, Random Perk Bottle, Max Ammo, Death Machine, Carpenter, Personal Points). 2 activations",
+      "type": "mega_ultra_rare"
+    }
+  }
+]
