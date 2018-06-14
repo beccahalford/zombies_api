@@ -34,3 +34,5 @@ class RandomFactViewSet(ModelViewSet):
 class MapFactViewSet(ModelViewSet):
     serializer_class = MapFactSerializer
     queryset = MapFact.objects.all()
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ('map__id', 'map__name')

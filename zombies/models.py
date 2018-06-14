@@ -27,15 +27,6 @@ class Perk(models.Model):
             return self.name
 
 
-class RandomFact(models.Model):
-    description = models.TextField()
-
-
-class MapFact(models.Model):
-    description = models.TextField()
-    map = models.ForeignKey(Map, on_delete=models.CASCADE)
-
-
 class GobbleGum(models.Model):
     gobblegum_id = models.CharField(max_length=100, unique=True)
     name = models.CharField(max_length=200)
@@ -50,3 +41,12 @@ class GobbleGum(models.Model):
 
     class Meta:
         ordering = ('type',)
+
+
+class RandomFact(models.Model):
+    description = models.TextField()
+
+
+class MapFact(models.Model):
+    description = models.TextField()
+    map = models.ForeignKey(Map, on_delete=models.CASCADE)
