@@ -13,7 +13,7 @@ class MapViewSet(ModelViewSet):
 class PerkViewSet(ModelViewSet):
     serializer_class = PerkSerializer
     queryset = Perk.objects.all()
-    filter_fields = ['name', 'map__map_id']
+    filter_fields = ['perk_id', 'name', 'map__map_id']
 
 
 class GobbleGumViewSet(ModelViewSet):
