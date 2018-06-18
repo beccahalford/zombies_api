@@ -32,11 +32,12 @@ class Command(BaseCommand):
         for fact in random_facts:
             RandomFact.objects.get_or_create(description=fact)
 
-        for map_name, map_fact in map_facts.items():
+        for map_name, facts in map_facts.items():
             map, _ = Map.objects.get_or_create(
                 map_id=map_name, name=map_name.replace('_', ' ').capitalize(), defaults={'release_date': now}
             )
-            MapFact.objects.get_or_create(map=map, description=map_fact)
+            for fact in facts:
+                MapFact.objects.get_or_create(map=map, description=fact)
 
         for map_name, info in map_perk_locations.items():
             map, _ = Map.objects.get_or_create(
