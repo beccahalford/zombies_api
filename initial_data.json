@@ -2052,7 +2052,7 @@
     "model": "zombies.mapfact",
     "pk": 5,
     "fields": {
-      "description": "['A portrait of Richtofen can be found in the pack a punch room on 5', \"The Winter's Howl can be found on a table on the third floor\"]",
+      "description": "['A portrait of Richtofen can be found in the pack a punch room on 5', 'The Winter\'s Howl can be found on a table on the third floor']",
       "map": 5
     }
   },
