@@ -13,7 +13,7 @@ class MapViewSet(ModelViewSet):
 class PerkViewSet(ModelViewSet):
     serializer_class = PerkSerializer
     queryset = Perk.objects.all()
-    filter_fields = ['perk_id']
+    filter_fields = ['perk_id', 'name']
 
     def get_queryset(self):
         """
@@ -23,7 +23,7 @@ class PerkViewSet(ModelViewSet):
 
         map = self.request.query_params.get('map', None)
         if map is not None:
-            queryset = queryset.filter(map__name__icontains=map)
+            queryset = queryset.filter(map__map_id__icontains=map)
 
         return queryset
 
@@ -42,4 +42,15 @@ class RandomFactViewSet(ModelViewSet):
 class MapFactViewSet(ModelViewSet):
     serializer_class = MapFactSerializer
     queryset = MapFact.objects.all()
-    filter_fields = ('map__id', 'map__name')
+
+    def get_queryset(self):
+        """
+        Allow case insensitive filtering of map name
+        """
+        queryset = super().get_queryset()
+
+        map = self.request.query_params.get('map', None)
+        if map is not None:
+            queryset = queryset.filter(map__map_id__icontains=map)
+
+        return queryset
