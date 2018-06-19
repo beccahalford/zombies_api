@@ -13,7 +13,19 @@ class MapViewSet(ModelViewSet):
 class PerkViewSet(ModelViewSet):
     serializer_class = PerkSerializer
     queryset = Perk.objects.all()
-    filter_fields = ['perk_id', 'name', 'map__map_id']
+    filter_fields = ['perk_id']
+
+    def get_queryset(self):
+        """
+        Allow case insensitive filtering of map name
+        """
+        queryset = super().get_queryset()
+
+        map = self.request.query_params.get('map', None)
+        if map is not None:
+            queryset = queryset.filter(map__name__icontains=map)
+
+        return queryset
 
 
 class GobbleGumViewSet(ModelViewSet):
