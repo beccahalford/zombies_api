@@ -17,7 +17,7 @@ class Perk(models.Model):
     perk_id = models.CharField(max_length=100)
     name = models.CharField(max_length=100)
     location = models.TextField(null=True)
-    map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE)
+    map = models.ForeignKey('zombies.Map', on_delete=models.CASCADE, related_name='perks')
 
     class Meta:
         unique_together = ('map', 'perk_id')
