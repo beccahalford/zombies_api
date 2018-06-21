@@ -1,3 +1,4 @@
+from rest_framework import serializers
 from rest_framework.viewsets import ModelViewSet
 
 from .serializers import MapSerializer, PerkSerializer, GobbleGumSerializer, RandomFactSerializer, MapFactSerializer
@@ -8,6 +9,7 @@ class MapViewSet(ModelViewSet):
     serializer_class = MapSerializer
     queryset = Map.objects.all()
     filter_fields = ['map_id', 'name']
+    lookup_field = 'map_id'
 
 
 class PerkViewSet(ModelViewSet):
@@ -18,12 +20,16 @@ class PerkViewSet(ModelViewSet):
     def get_queryset(self):
         """
         Allow case insensitive filtering of map name
+        If we find no perks,
         """
         queryset = super().get_queryset()
 
         map = self.request.query_params.get('map', None)
         if map is not None:
             queryset = queryset.filter(map__map_id__icontains=map)
+
+            if not queryset and not Map.objects.filter(map_id=map).exists():
+                raise serializers.ValidationError({'ERROR': 'Map not exist'})
 
         return queryset
 

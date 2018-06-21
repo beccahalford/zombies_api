@@ -4,12 +4,6 @@ from rest_framework.serializers import ModelSerializer
 from ..models import Map, Perk, GobbleGum, RandomFact, MapFact
 
 
-class MapSerializer(ModelSerializer):
-    class Meta:
-        model = Map
-        fields = ('map_id', 'name', 'release_date')
-
-
 class PerkSerializer(ModelSerializer):
     map = SerializerMethodField(source='get_map')
 
@@ -19,6 +13,14 @@ class PerkSerializer(ModelSerializer):
 
     def get_map(self, obj):
         return obj.map.name
+
+
+class MapSerializer(ModelSerializer):
+    perks = PerkSerializer(many=True)
+
+    class Meta:
+        model = Map
+        fields = ('map_id', 'name', 'release_date', 'perks')
 
 
 class GobbleGumSerializer(ModelSerializer):
