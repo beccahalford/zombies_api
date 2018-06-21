@@ -12,9 +12,6 @@ random_facts = [
 ]
 
 map_facts = {
-    'nacht': [],
-    'shi_no_numa': [],
-    'verruckt': [],
     'der_riese': [
         'Der Reese is a real location found in Poland that was used by Nazi scientists during the war'
     ],
@@ -22,34 +19,7 @@ map_facts = {
         'A portrait of Richtofen can be found in the pack a punch room on 5',
         'The Winter\'s Howl can be found on a table on the third floor'
     ],
-    'town': []
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
-    # '': [],
 }
-
 map_perk_locations = {
     'verruckt': {
         'quick_revive': 'Can be located in the American\'s side of the starting room',
@@ -376,7 +346,8 @@ map_perk_locations = {
     'final_reich': {},
     'haus': {},
     'darkest_shore': {},
-    'shadowed_throne': {}
+    'shadowed_throne': {},
+    'tortured_path': {}
 }
 
 gobblegum_data = {
@@ -680,4 +651,41 @@ gobblegum_data = {
                        'Bottle, Max Ammo, Death Machine, Carpenter, Personal Points). 2 activations',
         'type': 'mega_ultra_rare'
     }
+}
+
+map_release = {
+    'nacht': '2008-11-11',
+    'verruckt': '2009-03-19',
+    'shi_no_numa': '2009-06-11',
+    'der_riese': '2009-08-06',
+    'kino': '2010-11-09',
+    'five': '2010-11-09',
+    'ascension': '2011-02-01',
+    'call_of_the_dead': '2011-05-03',
+    'shangri_la': '2011-06-28',
+    'moon': '2011-08-23',
+    'tranzit': '2012-11-13',
+    'town': '2012-11-13',
+    'nuketown': '2012-11-13',
+    'die_rise': '2013-01-29',
+    'mob': '2013-05-16',
+    'buried': '2013-07-02',
+    'origins': '2013-08-27',
+    'shadows': '2015-11-06',
+    'the_giant': '2015-11-06',
+    'der_eisendrache': '2016-02-02',
+    'zetsubou': '2016-04-19',
+    'gorod_krovi': '2016-07-12',
+    'revelations': '2016-09-06',
+    'spaceland': '2016-11-04',
+    'redwoods': '2017-01-31',
+    'shaolin': '2017-04-18',
+    'radioactive': '2017-07-06',
+    'beast': '2017-09-12',
+    'prologue': '2017-11-04',
+    'final_reich': '2017-11-04',
+    'haus': '2017-11-04',
+    'darkest_shore': '2018-01-30',
+    'shadowed_throne': '2018-04-10',
+    'tortured_path': '2018-07-16'
 }
